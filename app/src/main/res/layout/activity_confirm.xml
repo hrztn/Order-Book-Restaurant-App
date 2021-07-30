@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".confirmActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="YOUR ORDER"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bangers"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/border_imageview">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/nasilemak"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nasi Lemak Set"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="RM 16"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/i1"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:text="1"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/chivo"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/border_imageview">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/tacos"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tacos 2PCs"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="RM 12"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/i2"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:text="2"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/chivo"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/border_imageview">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/lemontea"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Iced Lemon Tea"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="RM 6"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/chivo"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/i3"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:text="1"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/chivo"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price: RM 46"
+            android:textSize="20sp"
+            android:fontFamily="@font/chivo"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BOOKING DETAILS"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/bangers"/>
+
+        <TextView
+            android:id="@+id/www"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/chivo"
+            android:paddingLeft="20dp"
+            android:text="Table Number: "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_box"
+            android:backgroundTint="@color/primary"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Table 10"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/chivo"
+            android:paddingLeft="20dp"
+            android:text="Date: "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/D_ww"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/text_box"
+            android:backgroundTint="@color/primary"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2/6/2021"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/chivo"
+            android:paddingLeft="20dp"
+            android:text="Time: "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box"
+            android:backgroundTint="@color/primary"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="2.30 PM"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/pay_nowBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAY NOW"
+            android:textSize="25dp"
+            android:fontFamily="@font/chivo"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/secondary"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

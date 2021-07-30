@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".BookActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="BOOK A TABLE"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bangers"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seatb"
+        android:background="@color/primary"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/spin"
+        android:textAlignment="center"
+        android:entries="@array/table_numbers"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="SELECT BOOKING DATE"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/chivo"/>
+
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="SELECT BOOKING TIME"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/chivo" />
+
+    <Button
+        android:id="@+id/btn_conf"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/secondary"
+        android:text="CONFIRM"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+
+</LinearLayout>

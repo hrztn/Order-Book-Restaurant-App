@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        android:padding="5dp">
+        
+        <TextView
+            android:id="@+id/cartfoodName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"/>
+        
+        <TextView
+            android:id="@+id/cartfoodQuantity"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Food Quantity"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/cartfoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/cartfoodQuantity"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

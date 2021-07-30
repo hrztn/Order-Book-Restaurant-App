@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431431634850",
+    "project_id": "makanat-42d0f",
+    "storage_bucket": "makanat-42d0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431431634850:android:a47d854d9c339430b26cfb",
+        "android_client_info": {
+          "package_name": "com.example.makanat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431431634850-jb0ft9akvpfhu5eodbe3fkgt93u8ems6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAOW0afmjS2XW_nm0MOtfqxtnVRwuCKpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431431634850-jb0ft9akvpfhu5eodbe3fkgt93u8ems6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

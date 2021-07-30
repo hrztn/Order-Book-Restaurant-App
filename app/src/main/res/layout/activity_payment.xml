@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".PaymentActivity">
+
+    <TextView
+        android:id="@+id/TVP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Payment"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bangers"/>
+
+    <ImageView
+        android:id="@+id/IVP"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/payment"
+        android:layout_below="@+id/TVP"
+        android:background="@color/primary"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/idEdtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_below="@+id/IVP"
+        android:background="@drawable/round_edit_txt"
+        android:hint="Enter amount to be paid."
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/idEdtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtAmount"
+        android:textColorHint="@color/grey"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/round_edit_txt"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter your UPI ID."
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtUpi"
+        android:textColorHint="@color/grey"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/round_edit_txt"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter your name."
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/idEdtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtName"
+        android:textColorHint="@color/grey"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/round_edit_txt"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter payment description."
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/idBtnMakePayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtDescription"
+        android:layout_margin="12dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/secondary"
+        android:text="Make Payment"/>
+
+    <Button
+        android:id="@+id/btnDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnMakePayment"
+        android:layout_margin="12dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/grey"
+        android:text="MAKE PAYMENT"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/idTVTranscationDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnMakePayment"
+        android:layout_marginTop="30dp"
+        android:text="Transcation Details"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:visibility="gone" />
+
+</RelativeLayout>

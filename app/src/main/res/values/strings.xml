@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MakanAt</string>
+
+
+    <string-array name="table_numbers">
+        <item>SELECT TABLE</item>
+        <item>Table 1</item>
+        <item>Table 2</item>
+        <item>Table 3</item>
+        <item>Table 4</item>
+        <item>Table 5</item>
+        <item>Table 6</item>
+        <item>Table 7</item>
+        <item>Table 8</item>
+        <item>Table 9</item>
+        <item>Table 10</item>
+        <item>Table 11</item>
+        <item>Table 12</item>
+
+
+    </string-array>
+
+    <string-array name="delivery_courier">
+        <item>SELECT COURIER</item>
+        <item>Grab Food</item>
+        <item>LalaMove</item>
+        <item>Deliver Eat</item>
+
+    </string-array>
+
+</resources>

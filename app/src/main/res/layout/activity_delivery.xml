@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".deliveryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="DELIVERY"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/bangers"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:src="@drawable/sender"
+        android:background="@color/primary"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:id="@+id/spinD"
+        android:textAlignment="center"
+        android:entries="@array/delivery_courier"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/dateDTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="SELECT DELIVERY DATE"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/chivo"/>
+
+    <TextView
+        android:id="@+id/timerDTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="SELECT DELIVERY TIME"
+        android:textColorHint="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@drawable/round_edit_txt"
+        android:backgroundTint="@color/primary"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/chivo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edit_txt"
+        android:hint="ENTER ADDRESS"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/white"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_confD"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/secondary"
+        android:text="CONFIRM"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
